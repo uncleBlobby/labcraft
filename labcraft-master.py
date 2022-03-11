@@ -174,7 +174,7 @@ class solarSystem(Button):
     def update(self):
         oscSim(self)
         if self.hovered and held_keys['middle mouse']:
-            print_on_screen("farts")
+            print_on_screen("Edit Parameters.  Press ESC to exit.")
             showSliders(self)
             mouse.locked = False
 
