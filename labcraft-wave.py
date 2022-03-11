@@ -60,6 +60,9 @@ def update():
     # ` keypress will return first person mouse lock
     if held_keys['`']: mouse.locked = True
  
+
+    
+
     if debug == True:
         print(player.position.y)
 
