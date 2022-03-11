@@ -26,6 +26,15 @@ def initSolarSystemSliders(self):
         slider.bg.color = color.black
         slider.label.color = color.black
         slider.scale *= .75
+        slider.visible = False
+
+def showSliders(self):
+    for slider in self.sliders:
+        slider.visible = True
+
+def hideSliders(self):
+    for slider in self.sliders:
+        slider.visible = False
 
 def destroySliders(self):
     for slider in self.sliders:

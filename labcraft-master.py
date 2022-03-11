@@ -99,7 +99,6 @@ class Voxel(Button):
                 if block_pick == 1: voxel = Voxel(position = self.position + mouse.normal, texture = grass_texture)
                 if block_pick == 2: voxel = Voxel(position = self.position + mouse.normal, texture = stone_texture)
                 if block_pick == 3: voxel = Voxel(position = self.position + mouse.normal, texture = brick_texture)
-                if block_pick == 4: voxel = Voxel(position = self.position + mouse.normal, texture = dirt_texture)
                 if block_pick == 5: voxel = solarSystem(position = self.position + mouse.normal, texture = sun_texture)
                 if block_pick == 6: voxel = pendulum(position = self.position+mouse.normal, texture = pendulum_texture)
                 if block_pick == 7: ball = Ball(position = self.position + mouse.normal)
@@ -154,8 +153,7 @@ class pendulum(Button):
         if self.hovered and held_keys['right mouse']:
             destroy(self.pendulum)        
             destroy(self)
-          
-    
+
 
 class solarSystem(Button):
     def __init__(self, position = (0,0,0), texture = sun_texture):
@@ -175,6 +173,15 @@ class solarSystem(Button):
 
     def update(self):
         oscSim(self)
+        if self.hovered and held_keys['middle mouse']:
+            print_on_screen("farts")
+            showSliders(self)
+            mouse.locked = False
+
+        if held_keys['escape']:
+            hideSliders(self)
+            mouse.locked = True
+
         if self.hovered and held_keys['right mouse']:
             destroySliders(self)
             destroy(self.planet)
@@ -225,6 +232,7 @@ def terrainGen():
     for z in range(20):
         for x in range(20):
             voxel = Voxel(position = (x,0,z))
+
 
 def treeGen():
     for y in range(8):
