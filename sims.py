@@ -27,5 +27,5 @@ def applyGravity(entity):
         entity.y += GRAVITY * time.dt
 
 def launch(entity):
-    entity.z += 5 * time.dt
-    entity.y += (-0.98 * time.dt)^2.0
+    entity.x += -5 * time.dt
+    entity.y += 2 * time.dt

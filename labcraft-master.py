@@ -215,8 +215,8 @@ class Projectile(Entity):
             model = 'sphere',
             collider = 'sphere',
             #texture = 'circle',
-            color = color.red,
-            scale = 1.0)
+            color = color.black,
+            scale = 0.2)
         
     
     def update(self):
@@ -257,6 +257,12 @@ class Cannon(Entity):
             scale = 0.5,
             scale_x = 1.5,
             rotation = Vec3(0,0,55))
+    
+        self.projectile = Projectile(position = self.position)
+
+    def update(self):
+        if held_keys['middle mouse'] and self.hovered:
+            launch(self.projectile)
 
 
 
