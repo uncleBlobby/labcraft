@@ -53,6 +53,7 @@ def update():
     if held_keys['5']: block_pick = 5
     if held_keys['6']: block_pick = 6
     if held_keys['7']: block_pick = 7
+    if held_keys['8']: block_pick = 8
 
     
     # escape keypress will breakout mouse control from first person view
@@ -99,6 +100,7 @@ class Voxel(Button):
                 if block_pick == 5: voxel = solarSystem(position = self.position + mouse.normal, texture = sun_texture)
                 if block_pick == 6: voxel = pendulum(position = self.position+mouse.normal, texture = pendulum_texture)
                 if block_pick == 7: ball = Ball(position = self.position + mouse.normal)
+                if block_pick == 8: cannon = Cannon(position = self.position + mouse.normal, texture = sun_texture)
 
             if key == 'right mouse down':
                 punch_sound.play()
@@ -222,6 +224,19 @@ class Apple(Entity):
             writeExpDataToFile(outputFile, self.position.y, self.dataFrameCounter)
             applyGravity(self)
             self.dataFrameCounter += 1
+
+class Cannon(Entity):
+    def __init__(self, position = (0,0,0), texture = sun_texture):
+        super().__init__(
+            parent = scene,
+            position = position,
+            model = 'assets/block',
+            origin_y = 0.5,
+            texture = texture,
+            color = color.black,
+            scale = 0.5,
+            scale_x = 1.5,
+            rotation = Vec3(0,0,55))
 
 
 
