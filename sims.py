@@ -25,3 +25,7 @@ def applyGravity(entity):
     if not check_for_collision_below:
         # TODO: GRAVITY should work by modulating a veloctiy, not a position..
         entity.y += GRAVITY * time.dt
+
+def launch(entity):
+    entity.z += 5 * time.dt
+    entity.y += (-0.98 * time.dt)^2.0

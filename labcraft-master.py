@@ -99,7 +99,7 @@ class Voxel(Button):
                 if block_pick == 3: voxel = Voxel(position = self.position + mouse.normal, texture = brick_texture)
                 if block_pick == 5: voxel = solarSystem(position = self.position + mouse.normal, texture = sun_texture)
                 if block_pick == 6: voxel = pendulum(position = self.position+mouse.normal, texture = pendulum_texture)
-                if block_pick == 7: ball = Ball(position = self.position + mouse.normal)
+                if block_pick == 7: projectile = Projectile(position = self.position + mouse.normal)
                 if block_pick == 8: cannon = Cannon(position = self.position + mouse.normal, texture = sun_texture)
 
             if key == 'right mouse down':
@@ -187,11 +187,11 @@ class solarSystem(Button):
             destroy(self)
 
 class Ball(Entity):
-    def __init__(self, position = (0, 0, 0), yOffset = (0, 10, 0), direction = (0, 0, 0)):
+    def __init__(self, position = (0, 0, 0), yOffset = (0, 0, 0), direction = (0, 0, 0)):
         super().__init__(
             parent = scene,
             #position = position,
-            position = position + yOffset,
+            position = position,
             direction = direction,
             model = 'sphere',
             collider = 'sphere',
@@ -203,6 +203,26 @@ class Ball(Entity):
     def update(self):
         #if held_keys['g']:
         applyGravity(self)
+        
+
+class Projectile(Entity):
+    def __init__(self, position = (0, 0, 0), yOffset = (0, 0, 0), direction = (0, 0, 0)):
+        super().__init__(
+            parent = scene,
+            #position = position,
+            position = position,
+            direction = direction,
+            model = 'sphere',
+            collider = 'sphere',
+            #texture = 'circle',
+            color = color.red,
+            scale = 1.0)
+        
+    
+    def update(self):
+        #if held_keys['g']:
+        #applyGravity(self)
+        launch(self)
 
 class Apple(Entity):
     def __init__(self, position = (0, 0, 0), yOffset = (0, 10, 0), direction = (0, 0, 0)):
