@@ -256,13 +256,28 @@ class Cannon(Entity):
             color = color.black,
             scale = 0.5,
             scale_x = 1.5,
-            rotation = Vec3(0,0,55))
+            rotation = Vec3(0,0,40))
     
-        self.projectile = Projectile(position = self.position)
+        initCannonSliders(self)
+        
 
     def update(self):
-        if held_keys['middle mouse'] and self.hovered:
+        if held_keys['g']:
+            self.projectile = Projectile(position = self.position)
             launch(self.projectile)
+        
+
+        if held_keys['middle mouse']:
+            showSliders(self)
+            mouse.locked = False
+        
+        if held_keys['escape']:
+            hideSliders(self)
+            mouse.locked = True
+
+        rotateCannon(self)
+        
+        
 
 
 

@@ -28,6 +28,24 @@ def initSolarSystemSliders(self):
         slider.scale *= .75
         slider.visible = False
 
+def initCannonSliders(self):
+    self.sliders = list()
+    sliderX = ThinSlider(text="Launch Angle", max=90, default=45, x=-.65, y=(0.4*.75), step = 1)
+    self.sliders.append(sliderX)
+    
+    for slider in self.sliders:
+        slider.visible = False
+        slider.dynamic = True
+    
+    
+
+def rotateCannon(self):
+    self.rotation_z = self.sliders[0].value
+    print(self.rotation.z)
+
+def setCannonRotate(self):
+    return self.sliders[0].value
+
 def showSliders(self):
     for slider in self.sliders:
         slider.visible = True
