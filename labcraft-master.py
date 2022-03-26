@@ -266,7 +266,6 @@ class Cannon(Entity):
             self.projectile = Projectile(position = self.position)
             launch(self.projectile)
         
-
         if held_keys['middle mouse']:
             showSliders(self)
             mouse.locked = False

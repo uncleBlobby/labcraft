@@ -27,5 +27,6 @@ def applyGravity(entity):
         entity.y += GRAVITY * time.dt
 
 def launch(entity):
+    #launchAngle = self.rotation.z
     entity.x += -5 * time.dt
-    entity.y += 2 * time.dt
+    entity.y += (2 * time.dt)

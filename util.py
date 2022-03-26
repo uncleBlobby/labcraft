@@ -37,14 +37,10 @@ def initCannonSliders(self):
         slider.visible = False
         slider.dynamic = True
     
-    
 
 def rotateCannon(self):
     self.rotation_z = self.sliders[0].value
     print(self.rotation.z)
-
-def setCannonRotate(self):
-    return self.sliders[0].value
 
 def showSliders(self):
     for slider in self.sliders:
