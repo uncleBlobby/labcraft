@@ -78,8 +78,13 @@ numbers 1 through 8 (with the exception of 4, for reasons) will "pick a block" t
 7 -> projectile simulation (it's fun to launch projectiles, who are you to judge until you try for yourself)
 8 -> cannon simulation block (very much a work in progress.  middle click for slider to control cannon angle)
 
+g -> "run" the gravity experiment on newton's tree and output data to a file.  may or may not also fire the "cannon"
+
 right mouse click -> destroy targeted block
-left mouse click -> place chosen block
+left mouse click  -> place chosen block
+
+middle click      -> (on targeted simulation block, solar system for instance) bring up slider parameter menu
+escape            -> close slider menu if open, escape first person mouse controller by default
 ```
 
 At present, you don't really know what block you're "holding" unless you know what number you've pressed most recently.  This seems like a bug, but really it is a feature because this is educational content and it is tailored specifically this way to help improve your memory and recollection.  However, there are rumours that a UI inventory system is in the works.  Stay Tuned!
