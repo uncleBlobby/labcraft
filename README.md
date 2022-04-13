@@ -86,6 +86,12 @@ left mouse click -> place chosen block
 
 At present, you don't really know what block you're "holding" unless you know what number you've pressed most recently.  This seems like a bug, but really it is a feature because this is educational content and it is tailored specifically this way to help improve your memory and recollection.  However, there are rumours that a UI inventory system is in the works.  Stay Tuned!
 
+## Project Status:
+
+LabCraft is currently under active development, with updates likely to come in the spring/summer 2022.  Contributions are welcome, so feel free to take it for a spin.  At present, the project is in an early alpha state and users should keep that in mind--that being said, we welcome your expertise.
+
+For a more "polished" product with a different spin, check out [PhysLab](https://colin-price.wbs.uni.worc.ac.uk/PhysLab/PhysLab.htm).
+
 ## Support and Issues:
 
 If you have any problems, please feel free to reach out.  Send me an [email](mailto:dc.christianson@gmail.com)!
