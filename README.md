@@ -1,6 +1,7 @@
 # LabCraft
 ![screenshot](supp/labcraft-screen1.png)
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
+![license](https://img.shields.io/github/license/uncleBlobby/labcraft)
 
 A Digital Physics Lab in a Blocky Voxel World
 
