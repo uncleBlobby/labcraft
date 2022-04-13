@@ -27,6 +27,7 @@ sims.py             -> contains code that is used to control the simulation para
 util.py             -> contains code for LabCraft utilities (ie: UI sliders to control simulation parameters, data output functions, etc.)
 ```
 
+## Installation (Linux)
 
 ## Dependencies:
 Labcraft uses python 3.6:
@@ -42,25 +43,35 @@ pip install ursina
 ```
 
 ## Running:
-To run simply:
+To run the playground mode with all models and features accessible:
 ```bash
-python3 labcraft.py
+python3 labcraft-master.py
 ```
 
-## Manifest:
-- README.md:
-  The file you are currently reading.
+To run a particular simulation instance (currently only newtonian gravity simulation):
+```bash
+python3 labcraft-newton.py
+```
 
-- labcrafy.py:
-  The main labcraft code.
+## Controls:
+The controls are relatively straightforward first-person controls, typical of Minecraft and other games:
+```
+w -> move forward
+a -> move left
+s -> move backward
+d -> move right
 
-- assetTest.py:
-  A little script to test new models and textures.
+mouse axis y -> look up and down
+mouse axis x -> look left and right
 
-- sims.py:
-  Methods that control the various simulations in the world. Might change
-  this later as there becomes more simulations.
+numbers 1 through 8 (with the exception of 4, for reasons) will "pick a block" to lay... like minecraft creative mode.
+1 -> grass block
+2 -> stone block
+3 -> brick block
+5 -> solar system simulation block (middle click on solar system block to bring up slider controls, esc to close them)
+6 -> pendulum simulation block (sliders TODO)
+7 -> projectile simulation (it's fun to launch projectiles, who are you to judge until you try for yourself)
+8 -> cannon simulation block (very much a work in progress.  middle click for slider to control cannon angle)
 
-- assets:
-  Folder that contains all of the models, textures and audio files.
-
+right mouse click -> destroy targeted block
+left mouse click -> place chosen block
