@@ -92,6 +92,14 @@ LabCraft is currently under active development, with updates likely to come in t
 
 For a more "polished" product with a different spin, check out [PhysLab](https://colin-price.wbs.uni.worc.ac.uk/PhysLab/PhysLab.htm).
 
+## Roadmap:
+
+### Targets
+
+- Windows support
+- Projectile simulations
+- Wave function simulations
+
 ## Support and Issues:
 
 If you have any problems, please feel free to reach out.  Send me an [email](mailto:dc.christianson@gmail.com)!
