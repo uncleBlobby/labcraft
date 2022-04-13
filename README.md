@@ -1,5 +1,5 @@
 # LabCraft
-![screenshot](https://raw.githubusercontent.com/uncleBlobby/labcraft/cannon/screenshots/labcraft-screen1.png)
+![screenshot](supp/labcraft-screen1.png)
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 
 A Digital Physics Lab in a Blocky Voxel World
