@@ -105,7 +105,7 @@ For a more "polished" product with a different spin, check out [PhysLab](https:/
 
 ## Support and Issues:
 
-If you have any problems, please feel free to reach out.  Send me an [email](mailto:dc.christianson@gmail.com)!
+If you have any problems, please feel free to reach out.  Start a discussion by opening an [issue!](https://github.com/uncleBlobby/labcraft/issues).  Make a [pull request!](https://github.com/uncleBlobby/labcraft/pulls).  Buy me a [coffee!](https://www.youtube.com/watch?v=dQw4w9WgXcQ).  Send me an [email](mailto:dc.christianson@gmail.com)!
 
 ## Acknowledgements:
 
