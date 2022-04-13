@@ -17,7 +17,12 @@ Be warned, the code in this repo and the documentation along with it is amateur 
 ## Manifest
 
 ```
+/.vscode/           -> config file to disable linting
+/__pycache__/       -> should've been ignored, whoops
 /assets/            -> contains models, textures, and object files for various entities
+/screenshots/       -> screenshot file for cash money repo purposes
+.gitignore          -> self-explanatory
+README.md           -> YOU ARE HERE
 assetTest.py        -> contains tests for ensuring compatibility of new assets
 forces.py           -> currently unused (TODO: generalize gravity force in newton experiment and move here)
 labcraft-master.py  -> main LabCraft file.  Contains all entities and simulations, used as development playground
