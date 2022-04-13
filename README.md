@@ -84,3 +84,8 @@ At present, you don't really know what block you're "holding" unless you know wh
 ## Support and Issues:
 
 If you have any problems, please feel free to reach out.  Send me an [email](mailto:dc.christianson@gmail.com)!
+
+## Acknowledgements:
+
+Thanks to Peter Amland, aka [pokepetter](https://github.com/pokepetter/ursina) for working on developing the Ursina Engine!  Awesome framework, would recommend 10/10.  Join the Ursina Engine [discord](https://discord.gg/C8aaC4jSCd), say hi, and follow the development LIVE.
+
