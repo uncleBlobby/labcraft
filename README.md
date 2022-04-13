@@ -29,6 +29,8 @@ util.py             -> contains code for LabCraft utilities (ie: UI sliders to c
 
 ## Installation (Linux)
 
+Windows instructions coming soon!
+
 ## Dependencies:
 Labcraft uses python 3.6:
 ```bash
@@ -75,3 +77,8 @@ numbers 1 through 8 (with the exception of 4, for reasons) will "pick a block" t
 
 right mouse click -> destroy targeted block
 left mouse click -> place chosen block
+```
+
+At present, you don't really know what block you're "holding" unless you know what number you've pressed most recently.  This seems like a bug, but really it is a feature because this is educational content and it is tailored specifically this way to help improve your memory and recollection.  However, there are rumours that a UI inventory system is in the works.  Stay Tuned!
+
+
