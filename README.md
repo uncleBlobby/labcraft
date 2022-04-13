@@ -1,8 +1,11 @@
 # LabCraft
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
+
 A Digital Physics Lab in a Blocky Voxel World
+
 Forked from: [https://github.com/trevortomesh/labcraft](https://github.com/trevortomesh/labcraft)
-A research project undertaken to fulfill part of the requirements for CS290 at the [University of Regina](www.uregina.ca)
+
+A research project undertaken in partial fulfillment of the requirements for CS290 at the [University of Regina](www.uregina.ca)
 
 ## Description
 
