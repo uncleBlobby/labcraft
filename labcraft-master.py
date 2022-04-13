@@ -216,7 +216,7 @@ class Projectile(Entity):
             collider = 'sphere',
             #texture = 'circle',
             color = color.black,
-            scale = 0.2)
+            scale = 0.4)
         
     
     def update(self):
@@ -238,7 +238,6 @@ class Apple(Entity):
             scale = 0.65,
             dataFrameCounter = 0)
         
-    
     def update(self):
         if held_keys['g']:
             writeExpDataToFile(outputFile, self.position.y, self.dataFrameCounter)
@@ -276,9 +275,6 @@ class Cannon(Entity):
 
         rotateCannon(self)
         
-        
-
-
 
 def terrainGen():
     for z in range(20):
