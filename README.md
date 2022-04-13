@@ -106,7 +106,7 @@ If you have any problems, please feel free to reach out.  Send me an [email](mai
 
 Thanks to Peter Amland, aka [pokepetter](https://github.com/pokepetter/ursina) for working on developing the Ursina Engine!  Awesome framework, would recommend 10/10.  Join the Ursina Engine [discord](https://discord.gg/C8aaC4jSCd), say hi, and follow the development LIVE.
 
-Thanks to [Dr. T](https://github.com/trevortomesh) for taking me on as a research candidate and facilitating the ongoing development of this project.  Without your help, none of this would have come to be.  Also appreciate the insights that have helped lead me back to some philosophical readings I haven't touched in almost a decade.  I hope I can continue to pursue them, and I could sure use some more of your help.  Oh yeah I've read almost 3/4 of your thesis by now! 🤓
+Thanks to [Dr. T](https://github.com/trevortomesh) for taking me on as a research candidate and facilitating the ongoing development of this project.  It's only taken 4 or 5 months but I've read almost 3/4 of your thesis by now! 🤓
 
 Thanks to Earl aka Edge-Guard aka [quickMaffs44](https://github.com/quickMaffs44) for building out the Windows implementation of LabCraft, and working out some brilliant user-interface features.  Also thank you for being there and making sure I didn't have to be alone with Dr. T!
 
