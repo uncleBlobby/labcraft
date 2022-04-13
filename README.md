@@ -1,7 +1,20 @@
-# labcraft
+# LabCraft
 A Digital Physics Lab in a Blocky Voxel World
 
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
+
+## Manifest
+
+```
+/assets/            -> contains models, textures, and object files for various entities
+assetTest.py        -> contains tests for ensuring compatibility of new assets
+forces.py           -> currently unused (TODO: generalize gravity force in newton experiment and move here)
+labcraft-master.py  -> main LabCraft file.  Contains all entities and simulations, used as development playground
+labcraft-newton.py  -> stripped down LabCraft instance for running the newton gravity simulation
+labcraft-wave.py    -> currently unused (TODO: implement wave function generator for illustrative purposes)
+sims.py             -> contains code that is used to control the simulation parameters
+util.py             -> contains code for LabCraft utilities (ie: UI sliders to control simulation parameters, data output functions, etc.)
+```
 
 
 ## Dependencies:
