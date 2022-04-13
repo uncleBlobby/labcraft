@@ -78,7 +78,7 @@ numbers 1 through 8 (with the exception of 4, for reasons) will "pick a block" t
 7 -> projectile simulation (it's fun to launch projectiles, who are you to judge until you try for yourself)
 8 -> cannon simulation block (very much a work in progress.  middle click for slider to control cannon angle)
 
-g -> "run" the gravity experiment on newton's tree and output data to a file.  may or may not also fire the "cannon"
+g -> hold to "run" the gravity experiment on newton's tree and output data to a file.  may or may not also fire the "cannon"
 
 right mouse click -> destroy targeted block
 left mouse click  -> place chosen block
