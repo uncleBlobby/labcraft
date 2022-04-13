@@ -4,6 +4,8 @@
 
 ![license](https://img.shields.io/github/license/uncleBlobby/labcraft)
 
+![testCoverage](https://i.imgur.com/gv54nU0.png)
+
 A Digital Physics Lab in a Blocky Voxel World
 
 Forked from: [https://github.com/trevortomesh/labcraft](https://github.com/trevortomesh/labcraft)
